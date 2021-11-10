@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/couleurconnection"
+    tools:context=".Activites">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Ajouter toutes les activités"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="@android:color/black"/>
+            <EditText
+                android:id="@+id/txtidactivite"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     ID Activité "
+                android:background="@drawable/zonetexte"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/txtdesignactivite"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     Désignation activité "
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/txtdescactivite"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     Descrption activité"
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btnecole"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text="Sauvegarder"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="7dp"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

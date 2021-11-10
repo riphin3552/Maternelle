@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingTop="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-black"
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maternelle"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titre"/>
+
+    <TextView
+        android:id="@+id/lblslogant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogant"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        />
+    <!--<ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblslogant"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"/>-->
+
+<Button
+    android:id="@+id/btnauthentification"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/forme_boutonauthentifier"
+    android:layout_below="@id/lblslogant"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:textColor="@android:color/white"
+    android:paddingTop="5dp"
+    android:textSize="15dp"
+    android:textAllCaps="false"
+    android:drawableRight="@drawable/utilisateur"
+    android:text="@string/textboutonauthent"
+    android:layout_marginTop="15dp"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"/>
+
+
+</RelativeLayout>
+

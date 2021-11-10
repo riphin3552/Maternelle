@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurconnection"
+    android:orientation="vertical"
+    tools:context=".Images">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter une image à la galerie"
+                android:textSize="16dp"
+                android:layout_marginStart="80dp"
+                />
+
+            <EditText
+                android:id="@+id/txtidimage"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint=" Id image "
+                android:background="@drawable/zonetexte"
+                android:drawableLeft="@drawable/cle"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/txtphoto"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint=" Ajouter une photo"
+                android:background="@drawable/zonetexte"
+                android:drawableLeft="@drawable/ic_baseline_panorama_24"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btnparcourir"
+                android:layout_width="38dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="263dp"
+                android:textSize="15dp"
+                android:background="@drawable/zonetexte"
+                android:drawableLeft="@drawable/ic_parcourir"
+                android:inputType="text"
+                android:layout_marginTop="-49dp"
+                />
+
+
+            <EditText
+                android:id="@+id/txtdesignationImage"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint=" Désignation de l'image "
+                android:background="@drawable/zonetexte"
+                android:drawableLeft="@drawable/nom"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/btnajoutimage"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text="Ajouter"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/envoyer"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

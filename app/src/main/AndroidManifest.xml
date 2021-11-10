@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maternelle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".liste_sous_activites" />
+        <activity android:name=".liste_activites" />
+        <activity android:name=".Galerie_videos" />
+        <activity android:name=".Galerie_images" />
+        <activity android:name=".Videos" />
+        <activity android:name=".Images" />
+        <activity android:name=".Tableau_de_bord" />
+        <activity android:name=".Devoirs" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Administrateur_space" />
+        <activity android:name=".Publier_exercice" />
+        <activity android:name=".Espace_apprenants" />
+        <activity android:name=".Fiche_de_cotes" />
+        <activity android:name=".Sous_Activites" />
+        <activity android:name=".Activites" />
+        <activity android:name=".Ecole" />
+        <activity android:name=".Classes" />
+        <activity android:name=".CreationCompte" />
+        <activity android:name=".Connection" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurEspaceApprenant"
+    android:orientation="vertical"
+    tools:context=".Tableau_de_bord">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tableau de bord"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp">
+
+
+
+            <ImageButton
+                android:id="@+id/btnecole"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_ecole"
+                android:background="@drawable/zonetexte"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btnlaclasse"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ecoliers"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/zonetexte"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Ecole"
+                android:layout_marginTop="131dp"
+                android:layout_marginLeft="-205dp" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Classe"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <ImageButton
+                android:id="@+id/btnleCompte"
+                android:layout_marginTop="170dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/compte"
+                android:layout_marginLeft="-210dp"
+                android:background="@drawable/zonetexte"/>
+
+            <ImageButton
+                android:id="@+id/btnactivite"
+                android:layout_marginTop="170dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/activite"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/zonetexte"/>
+
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Créer compte"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="-210dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Activité"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+            <ImageButton
+                android:id="@+id/btnsous_activite"
+                android:layout_marginTop="310dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sousactivite"
+                android:layout_marginLeft="-210dp"
+                android:background="@drawable/zonetexte"/>
+
+            <ImageButton
+                android:id="@+id/btnpublierExercice"
+                android:layout_marginTop="310dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/publier"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/zonetexte"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sous-activité"
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="-200dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Publier exercices"
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="-1dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

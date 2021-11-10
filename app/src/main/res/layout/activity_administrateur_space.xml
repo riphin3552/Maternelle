@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurconnection"
+    tools:context=".Administrateur_space">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Espace Administrateur "
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnadmin_ecole"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Ecole "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="0dp"
+                />
+            <Button
+                android:id="@+id/btnadmin_classe"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Classes "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+            <Button
+                android:id="@+id/btnadmin_creationCpte"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Créer un compte "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+            <Button
+                android:id="@+id/btnadmin_Ajoutimages"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text="Images "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnactivite"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Activités "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnadmin_sous_activite"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Sous_Activités "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnadmin_exercice"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Publier exercices "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnadminFiche_des_cotes"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text=" Fiche des cotes "
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

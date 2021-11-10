@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurconnection"
+    android:paddingTop="60dp"
+    android:orientation="vertical"
+    tools:context=".Connection">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logine"
+        android:layout_centerHorizontal="true"/>
+<TextView
+    android:id="@+id/textlogo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/textlogin"
+    android:layout_below="@+id/imglogo"
+    android:layout_centerHorizontal="true"
+    android:textSize="30dp"
+    android:textColor="@android:color/black"
+    />
+    <TextView
+        android:id="@+id/ecrit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Une authentification est obligatoire!"
+        android:layout_below="@+id/textlogo"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:hint="entrer votre nom"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/zonetexte"
+        android:layout_centerInParent="true"
+        android:paddingTop="1dp"
+        android:drawableRight="@drawable/user"
+        android:inputType="text"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:hint="Mot de passe"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/zonetexte"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/nom"
+        android:paddingTop="1dp"
+        android:drawableRight="@drawable/cadena"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnSeloguer"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:hint="Se connecter"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/boouton_connection"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/password"
+        android:paddingTop="5dp"
+        android:drawableRight="@drawable/cle"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+
+
+
+</RelativeLayout>

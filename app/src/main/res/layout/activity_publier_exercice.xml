@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/couleurconnection"
+    tools:context=".Publier_exercice">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Publier un exercice"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="@android:color/black"/>
+            <EditText
+                android:id="@+id/txtidexercice"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="    ID exercice "
+                android:background="@drawable/zonetexte"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/txtcontenuExercice"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     expliquer l'exercice"
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+            <EditText
+                android:id="@+id/txtphotopublier"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     joindre image"
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btnparcuririmage"
+                android:layout_width="38dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="263dp"
+                android:textSize="13dp"
+                android:background="@drawable/zonetexte"
+                android:drawableLeft="@drawable/ic_parcourir"
+                android:inputType="text"
+                android:layout_marginTop="-49dp"
+                />
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/txtperiode"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     Période"
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/txtponderation"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     Pondération"
+                android:background="@drawable/zonetexte"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/idsousActivite"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:textSize="15dp"
+                android:hint="     Categorie sous-activité"
+                android:background="@drawable/zonetexte"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"/>
+
+
+
+            <Button
+                android:id="@+id/btnPublierExercice"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text="Sauvegarder"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="7dp"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

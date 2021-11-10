@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/couleurEspaceApprenant"
+    tools:context=".Devoirs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <DatePicker
+                android:id="@+id/txtdaterecherche"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ListView
+
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/zonetexte"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:id="@+id/txtreponse"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp"
+                android:hint="             Saisir la reponse ici "
+                android:background="@drawable/zonetexte"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnecole"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boouton_connection"
+                android:text="Repondre"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_baseline_publish_24"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

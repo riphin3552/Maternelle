@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/txtimages"
+        android:title="Ajouter une image"/>
+    <item android:id="@+id/txtvideo"
+        android:title="Ajouter une videos"/>
+    <item android:id="@+id/txtgalerie_images"
+        android:title="Galerie des images"/>
+    <item android:id="@+id/txtgalerie_videos"
+        android:title="Liste des vidéos"/>
+    <item android:id="@+id/txtfiche_cotes"
+        android:title="Consulter les cotes"/>
+</menu>
